@@ -18,6 +18,6 @@ override.tf.json
 # example: *tfplan*
 
 #ignore keys
-asg1
-asg1.pub
+asg2
+asg2.pub
 
