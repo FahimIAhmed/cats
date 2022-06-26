@@ -5,7 +5,7 @@ metadata:
   name: cats
   namespace: cats
   labels:
-    run: cats
+    app: cats
 spec:
   #replicas: 2
   containers:
@@ -14,6 +14,6 @@ spec:
     ports:
     - containerPort: 80
       name: http-web
-  dnsPolicy: ClusterFirst
-  restartPolicy: Always
+        #dnsPolicy: ClusterFirst
+        #restartPolicy: Always
   
