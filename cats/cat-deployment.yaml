@@ -5,7 +5,7 @@ metadata:
   name: cats
   namespace: cats
   labels:
-    run: cats
+    app: cats
 spec:
   replicas: 1
   selector:
