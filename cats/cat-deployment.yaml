@@ -10,11 +10,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      name: cats
+      app: cats
   template:
     metadata:
       labels:
-        name: cats
+        app: cats
     spec:
       containers:
       - name: cats
